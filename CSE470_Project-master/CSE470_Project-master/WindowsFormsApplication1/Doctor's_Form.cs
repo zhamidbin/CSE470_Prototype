@@ -32,5 +32,29 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+               
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            comboBox1.Show();
+            comboBox2.Show();
+            comboBox3.Show();
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+        }
     }
-}
+
+
